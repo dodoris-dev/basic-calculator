@@ -15,3 +15,10 @@ operation = gets.chomp()
     num2 = gets.chomp()
     puts num1.to_i - num2.to_i   
   end
+ if operation == "division"
+    puts "Division? Okay. Please, choose a number"
+    num1 = gets.chomp()
+    puts "Now, put another number" 
+    num2 = gets.chomp()
+    puts num1.to_i / num2.to_i  
+  end
